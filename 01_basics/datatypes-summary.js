@@ -35,3 +35,9 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack is for primitive datatypes and heap is for non primitive datatypes
+
+// while changing the data stack sends copied data whereas heap sends the original data
