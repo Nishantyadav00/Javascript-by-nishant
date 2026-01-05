@@ -5,11 +5,11 @@ const balance = new Number(100)
 console.log(balance);
 
 console.log(balance.toString().length);
-console.log(balance.toFixed(1));
+console.log(balance.toFixed(1)); // for this it will give output in decimal
 
 const otherNumber = 123.8966
 
-console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4)); // round off in decimal part , for this eg it will give 123.8
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'));
