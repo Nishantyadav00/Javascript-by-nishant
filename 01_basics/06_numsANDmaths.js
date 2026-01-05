@@ -2,7 +2,7 @@ const score = 400
 console.log(score);
 
 const balance = new Number(100)
-console.log(balance);
+console.log(balance);// it will create object for number and diff output will come
 
 console.log(balance.toString().length);
 console.log(balance.toFixed(1)); // for this it will give output in decimal
