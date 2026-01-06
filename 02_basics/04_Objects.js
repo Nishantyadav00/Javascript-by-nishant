@@ -53,7 +53,7 @@ users[1].email
 // console.log(Object.entries(tinderUser));
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-
+// ++++++++++++++ objects de-structure ++++++++++++++
 
 const course = {
     coursename: "js in hindi",
@@ -64,16 +64,18 @@ const course = {
 // course.courseInstructor
 
 const {courseInstructor: instructor} = course
-
-// console.log(courseInstructor);
 console.log(instructor);
+// const {courseInstructor} = course
+// console.log(courseInstructor);
 
+// data representation method in api (object)
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+//// data representation method in api (array)
 [
     {},
     {},
