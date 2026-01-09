@@ -1,4 +1,4 @@
-// for in loop
+// for in loop :- it only works on objects and arrays (iterable objects)
 
 const myObject = {
     js: 'javascript',
@@ -24,4 +24,4 @@ for (const key in programming) {
 
 // for (const key in map) {
 //     console.log(key);
-// }
+// } 
