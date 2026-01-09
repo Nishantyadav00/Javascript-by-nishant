@@ -7,7 +7,7 @@ const myObject = {
     swift: "swift by apple"
 }
 for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
+    console.log(`${key} shortcut is for ${myObject[key]}`); // ${myObject[key]} to access value
 }
 
 
