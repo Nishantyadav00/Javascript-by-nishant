@@ -35,7 +35,7 @@ console.log(loginUserMessage("Nishant"))
 
 // ... is also called rest operator on the basis of use it is determined that whether it is spread or rest // what rest operator does is it takes all the remaining elements and put them in an array
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(...num1){
     return num1
 }
 
