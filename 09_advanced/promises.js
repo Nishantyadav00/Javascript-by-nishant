@@ -96,3 +96,5 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 
 // promise.all
 // yes this is also available, kuch reading aap b kro.
+
+// a fetch promise is not affected by 404 or 500 status codes it is only rejected on network failure or if anything prevented the request from completing.
