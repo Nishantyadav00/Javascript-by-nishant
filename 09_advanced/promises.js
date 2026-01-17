@@ -94,7 +94,13 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 })
 .catch((error) => console.log(error))
 
-// promise.all
-// yes this is also available, kuch reading aap b kro.
+// promise.all 
+ const promiseall = Promise.all([promiseThree, promiseFour, promiseFive])
+.then((responses) => {
+    console.log("Promise All Responses: ", responses);
+})
+.catch((error) => {
+    console.log("Promise All Error: ", error);
+})
 
 // a fetch promise is not affected by 404 or 500 status codes it is only rejected on network failure or if anything prevented the request from completing.
