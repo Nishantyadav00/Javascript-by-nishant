@@ -8,11 +8,11 @@ let isloggedIn = false
 
 /* DataTypes
 number = 2 to power 52/53
-bigint
+bigint - it will be mainly used when the number is too big , eg-stocks site , social media
 string = ""
 boolean = true/false
 null = standalone value
-undefined =
+undefined
 symbol = for unique component
 
 object = later in this series*/
