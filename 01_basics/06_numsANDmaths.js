@@ -9,7 +9,7 @@ console.log(balance.toFixed(1)); // for this it will give output in decimal
 
 const otherNumber = 123.8966
 
-console.log(otherNumber.toPrecision(4)); // round off in decimal part , for this eg it will give 123.8
+console.log(otherNumber.toPrecision(4)); // round off in decimal part , for this eg it will give 123.8 , priority is given to number before decimal
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'));
@@ -25,7 +25,7 @@ console.log(Math.floor(4.9)); // it will give same value like 4
 console.log(Math.min(4, 3, 6, 8)); //gives min value
 console.log(Math.max(4, 3, 6, 8)); // gives max value
 
-console.log(Math.random());
+console.log(Math.random()); // gives random value between 0 & 1
 console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
 
