@@ -4,6 +4,7 @@ console.log(myDate.toString()); // Mon Jan 05 2026 17:34:44 GMT+0000 (Coordinate
 console.log(myDate.toDateString()); // Mon Jan 05 2026
 console.log(myDate.toLocaleString()); // 1/5/2026, 5:34:44 PM
 console.log(myDate.toISOString()); // 2026-01-05T17:34:44.013Z
+console.log(myDate.toJSON());
 console.log(myDate.toLocaleDateString()); // 1/5/2026
 console.log(typeof myDate); // Object
 
@@ -28,4 +29,4 @@ console.log(newDate.getDay());
 
 newDate.toLocaleString('default', {
     weekday: "long",
-})
+}) // further we can modify this by adding adjustment
