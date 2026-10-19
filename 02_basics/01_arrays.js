@@ -10,7 +10,7 @@ myArr.push(6) // insert at back
 myArr.push(7)
 myArr.pop() // delete last element
 
-myArr.unshift(9) // insert at front
+myArr.unshift(9) // insert at front , shifts all element to right (puts load on computer)
 myArr.shift() // delete at front
 
 console.log(myArr.includes(9));
@@ -34,5 +34,3 @@ console.log("B :", myArr); // slice do not change the original array
 const myn2 = myArr.splice(1, 3) // splice also manipulate the original array and it take out the portion which is being manipulated
 console.log("C :", myArr);
 console.log(myn2);
-
-console.log("D :", myArr);
