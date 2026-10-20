@@ -14,10 +14,10 @@ const JsUser = {
     isLoggedIn: false,
 }
 
-console.log(JsUser.email)
+console.log(JsUser.email) // to access object
 console.log(JsUser["email"]) // another way of accessing
 console.log(JsUser["full name"])
-console.log(JsUser[mySym]) // to access object
+console.log(typeof JsUser[mySym]) // to access symbol in objects
 
 JsUser.email = "Nishant@chatgpt.com"
 // Object.freeze(JsUser) // we cant change this further
