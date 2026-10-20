@@ -26,10 +26,10 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2} // similar as array to add two objets
 // console.log(obj3);
 
-
+// in this way we get data
 const users = [
     {
         id: 1,
@@ -48,7 +48,7 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser)); // to get output in array very imp
+// console.log(Object.keys(tinderUser)); // to get output in array // very imp - it will be used when we are dealing with databases
 // console.log(Object.values(tinderUser)); // same as above
 // console.log(Object.entries(tinderUser));
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
