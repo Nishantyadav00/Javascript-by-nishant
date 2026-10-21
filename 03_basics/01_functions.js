@@ -32,6 +32,7 @@ function loginUserMessage(username = "sam"){
 
 console.log(loginUserMessage("Nishant"))
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++
 
 // ... is also called rest operator on the basis of use it is determined that whether it is spread or rest // what rest operator does is it takes all the remaining elements and put them in an array
 
@@ -49,7 +50,7 @@ const user = {
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
-
+ // two ways to put argument for objects
 handleObject(user)
 handleObject({
     username: "sam",
@@ -58,6 +59,7 @@ handleObject({
 
 const myNewArray = [200, 400, 100, 600]
 
+// for printing the second value of an array
 function returnSecondValue(getArray){
     return getArray[1]
 }
